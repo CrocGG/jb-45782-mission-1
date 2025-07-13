@@ -1,0 +1,66 @@
+table{
+    text-align: center;
+    background-color: orchid;
+    border: blue
+}
+
+img{
+   height: 150px;
+   width: 150px;
+}
+
+
+body{
+    background-color: palevioletred;
+}
+
+input{
+    width: 200px;
+}
+
+h1{
+    font-family: alexbrush;
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    font-size: x-large;
+    margin-top:130px;
+    margin-left: 600px;
+    color: darkred;
+    background-image: linear-gradient(to bottom left,darkmagenta,pink,white);
+    box-shadow: 10px 10px 5px gray;
+}
+
+h2{
+    font-family: alexbrush;
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    font-size: x-large;
+    margin-top:130px;
+    margin-left: 600px;
+    color: darkred;
+    background-image: linear-gradient(to bottom left,darkmagenta,pink,white);
+    box-shadow: 10px 10px 5px gray;
+
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+h1{
+    animation: sivuv 10s linear infinite;
+}
+
+
+
+@keyframes sivuv{
+    100%{transform : rotate(360deg);
+}
+}
